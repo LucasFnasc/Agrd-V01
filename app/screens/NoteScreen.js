@@ -90,7 +90,7 @@ const NoteScreen = ({ user, navigation }) => {
       <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
         <View style={Styles.Container}>
           <View style={Styles.HeaderProfile}>
-            <Text style={Styles.header}> Bem Vindo! {user.name}</Text>
+            <Text style={Styles.header}> Bem Vindo! </Text>
             <TouchableOpacity  style={Styles.Questioniconbtn} 
              onPress={() => setmodalvisible2 (true)}>
             <AntDesign name="questioncircleo"  size={20} />
