@@ -23,7 +23,7 @@ const Intro = ({onFinish}) => {
     <>
     <Image
        style={Styles.logoSt}
-      source={require('../../assets/logo1.png')} />
+      source={require('../../assets/splash.png')} />
   
     <View style={Styles.Container}>
       <Text style={Styles.inputTitle}>Nome</Text>
@@ -59,7 +59,7 @@ const Styles = StyleSheet.create({
   
   textInput: {
     borderWidth: 1,
-    borderColor: "#161616",
+    borderColor: "#0007",
     color: "#141414",
     width:300,
     height: 40,
@@ -76,7 +76,8 @@ const Styles = StyleSheet.create({
   },
   TextEntrar:{
     fontSize: 20,
-    marginTop:10
+    marginTop:10,
+    fontWeight: "bold"
   },
   TouchableStyle:{
     width:200,

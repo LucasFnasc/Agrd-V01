@@ -68,7 +68,7 @@ const NoteInputModal = ({ visible, onClose, onSubmit, note, isEdit }) => {
   return (
     <>
 
-      <Modal visible={visible} animationType='fade'>
+      <Modal visible={visible} animationType='fade'  >
         <View style={styles.container}>
 
           <View style={styles.Header} >
@@ -124,17 +124,20 @@ const NoteInputModal = ({ visible, onClose, onSubmit, note, isEdit }) => {
           </View>
            ) : null}
 
-        </View>
+        
         <TouchableWithoutFeedback onPress={handleModalClose}>
           <View style={[styles.modalBG, StyleSheet.absoluteFillObject]} />
         </TouchableWithoutFeedback>
+        </View>
       </Modal>
+  
     </>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#FFF"
 
 
   },

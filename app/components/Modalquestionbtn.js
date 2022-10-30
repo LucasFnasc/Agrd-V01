@@ -67,13 +67,10 @@ const ModalquestioBtn = ({ visible, onClose, onSubmit, note, isEdit }) => {
             </Text>
 
             <Text style={styles.subtitleText} >
-                Registre dados dos animais de sua propriedade;
+                Registre dados dos animais de sua propriedade.
 
             </Text>
             <Text style={styles.subtitleText} >
-                
-
-                
                 filtre os resultados! 
             </Text>
 
@@ -98,14 +95,14 @@ const styles = StyleSheet.create({
 
   },
   modalView:{
-    backgroundColor: '#daddde',
+    backgroundColor: '#f7f8ff',
     width: 300,
     height: 300,
     alignContent: 'center',
     alignSelf: 'center',
     margin: 100,
     borderRadius: 30,
-    elevation: 3
+    elevation: 5
   },
   textTitle:{
     fontSize: 18,

@@ -117,14 +117,18 @@ const NoteDetail = props => {
 
       </ScrollView>
 
+      <View style={styles.container} >
+
        
      <View  style={styles.btnContainer2}  >
        <TouchableOpacity  onPress={openEditModal} >
          <AntDesign name='edit'  size={20} />
        </TouchableOpacity>
      </View>
+     </View>
     <NoteInputModal  isEdit={isEdit} note={note} onClose={handleOnclose} onSubmit= {handleUpdate }  visible={showModal}
     />
+    
      </>
     
     
@@ -133,6 +137,9 @@ const NoteDetail = props => {
 
 const styles = StyleSheet.create({
   container: {
+
+    
+    
   
   
   },

@@ -217,7 +217,7 @@ const Styles = StyleSheet.create({
   ViewLotes: {
     width: 180,
     height: "100%",
-    backgroundColor: "#FFF",
+    backgroundColor: "#f7f8ff",
     padding: 10,
     marginright: 2,
     borderRadius: 30,
@@ -226,7 +226,7 @@ const Styles = StyleSheet.create({
   viewAnimais: {
     width: 350,
     height: 50,
-    backgroundColor: "#FFF",
+    backgroundColor: "#fff",
     padding: 10,
     marginright: 2,
     borderRadius: 30,
@@ -246,7 +246,7 @@ const Styles = StyleSheet.create({
   FlatView: {
     height: 600,
     width: "100%",
-    backgroundColor: "#FFF",
+    backgroundColor: "#fff",
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
     alignItems: "center",
